@@ -29,5 +29,12 @@ console.log(STABLE_MONTHLY_FEE - 20);
 console.log(false + 2); 
 console.log(false + "NaN")
 
+//LAB CLASS 4
+
+let horseNickname = "DirectorHorse"
+console.log(`This is my horse ${horseName}, his nickname is ${horseNickname}!`)
+console.log(`You would save $${((STABLE_MONTHLY_FEE * 3) * 0.1)} with a 10% discount on a 3 month stay at our stables!`)
+
+
 
 
