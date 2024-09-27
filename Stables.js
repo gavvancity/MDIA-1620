@@ -24,7 +24,7 @@ console.log("Oi" + " mate");
 
 console.log("The stable monthly fee is" + STABLE_MONTHLY_FEE);
 console.log("My horse's name is " + horseName + " and he is " + (horseAge - 3) + " years old");
-console.log(`My horse's name is + ${horseName} + " and he is " ${horseAge - 3} + " years old`);
+console.log(`My horse's name is ${horseName} and he is ${horseAge - 3} years old`);
 console.log(STABLE_MONTHLY_FEE - 20);
 console.log(false + 2); 
 console.log(false + "NaN")
