@@ -4,7 +4,7 @@ console.log(horseName);
 horseName = "Quentin Tarantino"
 console.log(horseName);
 
-let horseAge = 10;
+let horseAge = 12;
 
 console.log(horseAge)
 
