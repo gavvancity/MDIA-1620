@@ -22,7 +22,7 @@ console.log(STABLE_MONTHLY_FEE * 3);
 console.log(STABLE_MONTHLY_FEE + STABLE_MONTHLY_FEE);
 console.log("Oi" + " mate");
 
-console.log("The stable monthly fee is" + STABLE_MONTHLY_FEE);
+console.log("The stable monthly fee is" + "$" + STABLE_MONTHLY_FEE);
 console.log("My horse's name is " + horseName + " and he is " + (horseAge - 3) + " years old");
 console.log(`My horse's name is ${horseName} and he is ${horseAge - 3} years old`);
 console.log(STABLE_MONTHLY_FEE - 20);
@@ -35,6 +35,12 @@ let horseNickname = "DirectorHorse"
 console.log(`This is my horse ${horseName}, his nickname is ${horseNickname}!`)
 console.log(`You would save $${((STABLE_MONTHLY_FEE * 3) * 0.1)} with a 10% discount on a 3 month stay at our stables!`)
 
+// Lab 5a
 
+if (!isHorseInside) {
+    console.log(horseName + " is outside.")
+} else {
+    console.log(horseName + " is inside.")
+}
 
 
